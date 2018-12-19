@@ -1,0 +1,15 @@
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\bin\Debug\Bestiary.exe.config
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\bin\Debug\Bestiary.exe
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\bin\Debug\Bestiary.pdb
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Bestiary.csprojAssemblyReference.cache
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\MainWindow.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\App.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Bestiary_MarkupCompile.cache
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Bestiary_MarkupCompile.lref
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\MainWindow.baml
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Bestiary.g.resources
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Bestiary.Properties.Resources.resources
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Bestiary.csproj.GenerateResource.cache
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Bestiary.csproj.CoreCompileInputs.cache
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Bestiary.exe
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Bestiary.pdb

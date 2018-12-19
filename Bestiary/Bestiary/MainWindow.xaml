@@ -1,0 +1,13 @@
+﻿<Window x:Class="Bestiary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bestiary"
+        mc:Ignorable="d"
+        Title="Bestiary" Height="720" Width="1280" FontSize="50" Icon="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\icon2.png" MaxHeight="720" MinHeight="720" MaxWidth="1280" MinWidth="1280">
+    <Grid Margin="0,0,-6.4,-175.6">
+        <ComboBox HorizontalAlignment="Left" Margin="594,155,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
