@@ -3,11 +3,31 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
         xmlns:local="clr-namespace:Bestiary"
         mc:Ignorable="d"
-        Title="Bestiary" Height="720" Width="1280" FontSize="50" Icon="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\icon2.png" MaxHeight="720" MinHeight="720" MaxWidth="1280" MinWidth="1280">
-    <Grid Margin="0,0,-6.4,-175.6">
-        <ComboBox HorizontalAlignment="Left" Margin="594,155,0,0" VerticalAlignment="Top" Width="120"/>
+        Title="Bestiary" BorderBrush="Beige" Height="720" Width="1280" FontSize="50" Icon="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\icon2.png" MaxHeight="550" MinHeight="550" MaxWidth="920" MinWidth="920">
+    <Grid>
+        <Image Name="gif_Background" gif:ImageBehavior.AnimatedSource="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\backgroundmain.gif"  HorizontalAlignment="Center" gif:ImageBehavior.RepeatBehavior="2x" gif:ImageBehavior.AnimationCompleted="Image_AnimationCompleted" Width="936" />
+        <MediaElement  LoadedBehavior="Manual" Name="Hi" Visibility="Hidden" Source="C:\Users\Bernardo\Desktop\Cubase Proyectos v2 xd\Bestiary.wav" HorizontalAlignment="Left" Height="100" Margin="0,590,0,0" VerticalAlignment="Top" Width="100">
+            <MediaElement.Triggers>
+                <EventTrigger RoutedEvent="MediaElement.Loaded">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <MediaTimeline Source="C:\Users\Bernardo\Desktop\Cubase Proyectos v2 xd\Bestiary.wav" Storyboard.TargetName="Hi" RepeatBehavior="Forever">
+                                </MediaTimeline>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </MediaElement.Triggers>
+        </MediaElement>
+        <Image Name="img_Logo" Visibility="Visible"  Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\logo.png" HorizontalAlignment="Center" Height="213"  VerticalAlignment="Top" Margin="10" Width="425"/>
+        
+        
+
+
 
     </Grid>
 </Window>
