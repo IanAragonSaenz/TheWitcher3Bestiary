@@ -8,8 +8,11 @@
         mc:Ignorable="d"
         Title="Bestiary" BorderBrush="Beige" Height="720" Width="1280" FontSize="50" Icon="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\icon2.png" MaxHeight="550" MinHeight="550" MaxWidth="920" MinWidth="920">
     <Grid>
+        <Frame x:Name="LoadFrame" />
+        <MediaElement Name="pageTurn" Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Sound\pageTurn.wav" LoadedBehavior="Manual"/>
+
         <Image Name="gif_Background" gif:ImageBehavior.AnimatedSource="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\backgroundmain.gif"  HorizontalAlignment="Center" gif:ImageBehavior.RepeatBehavior="2x" gif:ImageBehavior.AnimationCompleted="Image_AnimationCompleted" Width="936" />
-        <MediaElement  LoadedBehavior="Manual" Name="Hi" Visibility="Hidden" Source="C:\Users\Bernardo\Desktop\Cubase Proyectos v2 xd\Bestiary.wav" HorizontalAlignment="Left" Height="100" Margin="0,590,0,0" VerticalAlignment="Top" Width="100">
+        <MediaElement  LoadedBehavior="Manual" Name="Hi" Visibility="Hidden" Source="C:\Users\Bernardo\Desktop\Cubase Proyectos v2 xd\Bestiary.wav" HorizontalAlignment="Left" Height="100" Margin="0,590,0,0" VerticalAlignment="Top" Width="100" Volume="1">
             <MediaElement.Triggers>
                 <EventTrigger RoutedEvent="MediaElement.Loaded">
                     <EventTrigger.Actions>
@@ -23,9 +26,14 @@
                 </EventTrigger>
             </MediaElement.Triggers>
         </MediaElement>
-        <Image Name="img_Logo" Visibility="Visible"  Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\logo.png" HorizontalAlignment="Center" Height="213"  VerticalAlignment="Top" Margin="10" Width="425"/>
-        
-        
+        <Image Name="img_Logo" Visibility="Hidden" Opacity="0.75"  Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\logo.png" HorizontalAlignment="Center" Height="213"  VerticalAlignment="Top" Margin="10" Width="425"/>
+        <Button Name="button_Start"  Click="Button_Start_Click" Visibility="Hidden"  Foreground="ForestGreen" FontWeight="UltraBlack" Content="Start" FontSize="20"   HorizontalAlignment="Center"  VerticalAlignment="Center" Width="90" Height="40" RenderTransformOrigin="0.786,0.489" Margin="413,242,410.6,238.8">
+            <Button.Background>
+                <ImageBrush ImageSource="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\button_Bestiary.png"></ImageBrush>
+            </Button.Background>
+        </Button>
+
+
 
 
 

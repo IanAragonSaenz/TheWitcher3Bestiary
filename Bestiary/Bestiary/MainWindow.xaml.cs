@@ -21,28 +21,41 @@ namespace Bestiary
     /// </summary>
     public partial class MainWindow : Window
     {
-        int i = 0;
+        int i=0;
         public MainWindow()
         {
            
-            Timer timer = new Timer(TimerCallBack,null,0,1000);
+            
             InitializeComponent();
             Hi.Play();
-        
-           
+            
 
-                
-        }
-        private void TimerCallBack(object o)
-        {
           
+            
+
+
         }
 
         private void Image_AnimationCompleted(object sender, RoutedEventArgs e)
         {
             img_Logo.Visibility = Visibility.Visible;
-           
+            
+            button_Start.Visibility = Visibility.Visible;
 
+            WpfAnimatedGif.ImageBehavior.SetRepeatBehavior(img_Logo, System.Windows.Media.Animation.RepeatBehavior.Forever);
+            
+        }
+
+
+        private void Button_Start_Click(object sender, RoutedEventArgs e)
+        {
+            pageTurn.Play();
+            Index ind = new Index();
+            LoadFrame.NavigationService.Navigate(ind);
+            gif_Background.Visibility = Visibility.Collapsed;
+            button_Start.Visibility = Visibility.Collapsed;
+            img_Logo.Visibility = Visibility.Collapsed;
+            
         }
     }
 }
