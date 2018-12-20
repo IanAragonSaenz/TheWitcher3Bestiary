@@ -64,5 +64,20 @@ namespace Bestiary
         {
 
         }
+
+        private void ChangePage()
+        {
+            pageTurn.Play();
+            txt_Description.Visibility = Visibility.Collapsed;
+            txt_Title.Visibility = Visibility.Collapsed; 
+            button_Bear.Visibility = Visibility.Collapsed;
+            button_Beauclair.Visibility = Visibility.Collapsed;
+            button_Boars.Visibility = Visibility.Collapsed;
+            button_Dogs.Visibility = Visibility.Collapsed;
+            button_Panthers.Visibility = Visibility.Collapsed;
+            button_Pigs.Visibility = Visibility.Collapsed;
+            button_Return.Visibility = Visibility.Collapsed; 
+            button_Wolves.Visibility = Visibility.Collapsed;
+        }
     }
 }

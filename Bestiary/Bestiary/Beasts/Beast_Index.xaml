@@ -10,7 +10,8 @@
 
     <Grid>
         <Frame x:Name="LoadPage" NavigationUIVisibility="Hidden"/>
-        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\background2.jpg" Height="749" Width="920" Margin="0,-116,0,-82.6" RenderTransformOrigin="0.439,0.517"/>
+        <MediaElement Name="pageTurn" Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Sound\pageTurn.wav" LoadedBehavior="Manual"/>
+        <Image Name="img_Back" HorizontalAlignment="Left" VerticalAlignment="Top" Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\background2.jpg" Height="749" Width="920" Margin="0,-116,0,-82.6" RenderTransformOrigin="0.439,0.517"/>
         <TextBlock Name="txt_Title" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Beasts" FontWeight="UltraLight" VerticalAlignment="Top" FontFamily="Olde English" FontSize="70"/>
         <TextBlock Name="txt_Description" HorizontalAlignment="Left" Height="32" Margin="144,78,0,0" TextWrapping="Wrap" Text="Non-magical creatures who are susceptible to best oil." VerticalAlignment="Top" Width="auto" FontFamily="Olde English" FontSize="36"/>
         <Button Name="button_Bear" Content="Bear" FontWeight="UltraLight" Click="Button_Bear_Click" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left" Margin="176,137,0,0" VerticalAlignment="Top" Width="auto" FontFamily="Olde English" FontSize="32"/>
