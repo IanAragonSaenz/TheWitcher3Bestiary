@@ -58,6 +58,38 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Beasts\Beau.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Beasts\BigWolf.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Beasts\Wolf.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Beasts\Dog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Beasts\Panthers.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Beasts\Boar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Beasts\Pigs.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Beasts\Bear.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Beasts\Beast_Index.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -73,6 +105,30 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Beasts\Beau.xaml.cs">
+      <DependentUpon>Beau.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Beasts\BigWolf.xaml.cs">
+      <DependentUpon>BigWolf.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Beasts\Wolf.xaml.cs">
+      <DependentUpon>Wolf.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Beasts\Dog.xaml.cs">
+      <DependentUpon>Dog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Beasts\Panthers.xaml.cs">
+      <DependentUpon>Panthers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Beasts\Boar.xaml.cs">
+      <DependentUpon>Boar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Beasts\Pigs.xaml.cs">
+      <DependentUpon>Pigs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Beasts\Bear.xaml.cs">
+      <DependentUpon>Bear.xaml</DependentUpon>
     </Compile>
     <Compile Include="Beasts\Beast_Index.xaml.cs">
       <DependentUpon>Beast_Index.xaml</DependentUpon>

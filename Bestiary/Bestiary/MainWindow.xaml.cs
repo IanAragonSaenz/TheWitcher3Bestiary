@@ -22,6 +22,7 @@ namespace Bestiary
     public partial class MainWindow : Window
     {
         int i=0;
+        bool isMute = false;
         public MainWindow()
         {
            
@@ -42,8 +43,10 @@ namespace Bestiary
             
             button_Start.Visibility = Visibility.Visible;
 
-            WpfAnimatedGif.ImageBehavior.SetRepeatBehavior(img_Logo, System.Windows.Media.Animation.RepeatBehavior.Forever);
             
+
+            button_Mute.Visibility = Visibility.Visible;
+
         }
 
 
@@ -55,7 +58,23 @@ namespace Bestiary
             gif_Background.Visibility = Visibility.Collapsed;
             button_Start.Visibility = Visibility.Collapsed;
             img_Logo.Visibility = Visibility.Collapsed;
+            button_Mute.Visibility = Visibility.Collapsed;
             
+            
+        }
+
+        private void Button_Mute_Click(object sender, RoutedEventArgs e)
+        {
+            if (isMute==false)
+            {
+                Hi.Volume = 0;
+                isMute = true;
+            }
+            else
+            {
+                Hi.Volume = 0.75;
+                isMute = false;
+            }
         }
     }
 }
