@@ -15,21 +15,18 @@ using System.Windows.Shapes;
 
 namespace Bestiary.Cursed
 {
-    /// <summary>
-    /// Interaction logic for Bear.xaml
-    /// </summary>
-    public partial class Botchling : Page
+
+    public partial class Berserker : Page
     {
-        public Botchling()
+        public Berserker()
         {
             InitializeComponent();
-            txt_Description.Text = "Small creatures resembling a highly deformed fetus created from the improper burial of unwanted, "+
-                " stillborn infants that preys on pregnant women. While hiding beneath beds, botchlings sap the expectant mother of strength "+
-                " and once she is completely defenseless it will latch on and directly feed off blood, killing both her and the unborn child." ;
-            txt_LootText.Text = "Lesser Red Mutagen\nMonster Ear\nMonster Blood\nMonster Bone\nNEcrophage Hide\nRotting Flesh\nMonster Brain";
-            txt_SusceptibilityText.Text = "Cursed Oil\nAxii";
-            
-
+            txt_Description.Text = "Skellige legends speak of men known as berserkers who transform into bears when overwhelmed by battle rage. In doing so, "+
+                "they lose all self-awareness and are driven by a bloodlust which they must satiate in order to return to human form. Few bealive these blood-curdling tales,"+
+                ",however, not even in Skellige, where the inhabitants usually treat even the least probable legend with most utmost gravity."+
+                " This indicates either that berserkers are in fact mere figments of mead-sodden imaginations, or else, that they have learned to hide their abilities from the rest of the islanders.";
+            txt_LootText.Text = "Bear Fat\nBerserker Hide\nRaw Meat";
+            txt_SusceptibilityText.Text = "Devil's Puffball\nCursed Oil\nQuen\nIgni";
         }
 
         private void Button_return_Click(object sender, RoutedEventArgs e)
@@ -52,7 +49,17 @@ namespace Bestiary.Cursed
             button_return.Visibility = Visibility.Collapsed;
             img_Mob.Visibility = Visibility.Collapsed; 
             img_back.Visibility = Visibility.Collapsed;
+            button_Variation1.Visibility = Visibility.Collapsed;
+            txt_Variation.Visibility = Visibility.Collapsed;
 
+        }
+
+        private void Button_Variation1_Click(object sender, RoutedEventArgs e)
+        {
+            
+            Beasts.Bear bear = new Beasts.Bear();
+            LoadPage.NavigationService.Navigate(bear);
+            Clear();
         }
     }
 }

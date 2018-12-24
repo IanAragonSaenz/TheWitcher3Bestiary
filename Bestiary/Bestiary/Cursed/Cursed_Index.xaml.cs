@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace Bestiary
 {
-    /// <summary>
-    /// Interaction logic for Beast_Index.xaml
-    /// </summary>
+   
     public partial class Cursed_Index : Page
     {
         public Cursed_Index()
@@ -37,12 +35,17 @@ namespace Bestiary
 
         private void Button_Return_Click(object sender, RoutedEventArgs e)
         {
+            Index ind = new Index();
+            ChangePage();
+            LoadPage.NavigationService.Navigate(ind);
 
         }
 
         private void Button_2_Click(object sender, RoutedEventArgs e)
         {
-
+            Cursed.Berserker berserker = new Cursed.Berserker();
+            ChangePage();
+            LoadPage.NavigationService.Navigate(berserker);
         }
 
         private void Button_3_Click(object sender, RoutedEventArgs e)
@@ -52,12 +55,16 @@ namespace Bestiary
 
         private void Button_4_Click(object sender, RoutedEventArgs e)
         {
-
+            Cursed.Lubberkin lubber = new Cursed.Lubberkin();
+            ChangePage();
+            LoadPage.NavigationService.Navigate(lubber);
         }
 
         private void Button_5_Click(object sender, RoutedEventArgs e)
         {
-
+            Cursed.Ulfhedinn ulf = new Cursed.Ulfhedinn();
+            ChangePage();
+            LoadPage.NavigationService.Navigate(ulf);
         }
 
         private void Button_6_Click(object sender, RoutedEventArgs e)
@@ -86,6 +93,7 @@ namespace Bestiary
             button_7.Visibility = Visibility.Collapsed;
             button_Return.Visibility = Visibility.Collapsed;
             img_Back.Visibility = Visibility.Collapsed; 
+          
         }
     }
 }

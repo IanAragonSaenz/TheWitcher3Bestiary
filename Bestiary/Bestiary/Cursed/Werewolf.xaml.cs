@@ -18,16 +18,16 @@ namespace Bestiary.Cursed
     /// <summary>
     /// Interaction logic for Bear.xaml
     /// </summary>
-    public partial class Botchling : Page
+    public partial class Werewolf : Page
     {
-        public Botchling()
+        public Werewolf()
         {
             InitializeComponent();
-            txt_Description.Text = "Small creatures resembling a highly deformed fetus created from the improper burial of unwanted, "+
-                " stillborn infants that preys on pregnant women. While hiding beneath beds, botchlings sap the expectant mother of strength "+
-                " and once she is completely defenseless it will latch on and directly feed off blood, killing both her and the unborn child." ;
-            txt_LootText.Text = "Lesser Red Mutagen\nMonster Ear\nMonster Blood\nMonster Bone\nNEcrophage Hide\nRotting Flesh\nMonster Brain";
-            txt_SusceptibilityText.Text = "Cursed Oil\nAxii";
+            txt_Description.Text = "Neither animal, nor man, the Werewolf takes the worst from both species: the bloodlust and primal nature of a wolf,"+
+                " and the ruthlessness and cruelty of a human. One becomes a Werewolf as a result of a curse thrown by a witch. The change itself is uncontrollable and unwilling."+
+                " A man who transforms back to his human form can't usually remember the atrocious acts commited as a werewolf.";
+            txt_LootText.Text = "Werewolf Hide\nWerewolf Mutagen\nWerewolf Saliva";
+            txt_SusceptibilityText.Text = "Moon Dust\nDevil's Puffball\nCursed Oil\nIgni";
             
 
         }
@@ -52,6 +52,13 @@ namespace Bestiary.Cursed
             button_return.Visibility = Visibility.Collapsed;
             img_Mob.Visibility = Visibility.Collapsed; 
             img_back.Visibility = Visibility.Collapsed;
+            button_Variation1.Visibility = Visibility.Collapsed;
+            txt_Variation.Visibility = Visibility.Collapsed;
+
+        }
+
+        private void Button_Variation1_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }

@@ -94,6 +94,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Cursed\Lubberkin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Cursed\Berserker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Cursed\Ulfhedinn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Cursed\Botchling.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -144,6 +156,15 @@
     </Compile>
     <Compile Include="Beasts\Beast_Index.xaml.cs">
       <DependentUpon>Beast_Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cursed\Lubberkin.xaml.cs">
+      <DependentUpon>Lubberkin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cursed\Berserker.xaml.cs">
+      <DependentUpon>Berserker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cursed\Ulfhedinn.xaml.cs">
+      <DependentUpon>Ulfhedinn.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cursed\Botchling.xaml.cs">
       <DependentUpon>Botchling.xaml</DependentUpon>

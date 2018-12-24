@@ -18,16 +18,16 @@ namespace Bestiary.Cursed
     /// <summary>
     /// Interaction logic for Bear.xaml
     /// </summary>
-    public partial class Botchling : Page
+    public partial class Ulfhedinn : Page
     {
-        public Botchling()
+        public Ulfhedinn()
         {
             InitializeComponent();
-            txt_Description.Text = "Small creatures resembling a highly deformed fetus created from the improper burial of unwanted, "+
-                " stillborn infants that preys on pregnant women. While hiding beneath beds, botchlings sap the expectant mother of strength "+
-                " and once she is completely defenseless it will latch on and directly feed off blood, killing both her and the unborn child." ;
-            txt_LootText.Text = "Lesser Red Mutagen\nMonster Ear\nMonster Blood\nMonster Bone\nNEcrophage Hide\nRotting Flesh\nMonster Brain";
-            txt_SusceptibilityText.Text = "Cursed Oil\nAxii";
+            txt_Description.Text = "They are a breed of weewolf found mainly in Skellige. The harsh and barren conditions of the isles might explain why " +
+                "they primarily hunt men and are stronger than their continental brethen. Older and particularly dangerous ulfhedinn are called olrefs. Only a few daring warrios in Skellige " +
+                "history have managed to defeat an ulfhedinn, and each of them is commemorated in ballads as a hero to this day." ;
+            txt_LootText.Text = "Werewolf Hide\nWerewolf Mutagen\nWerewolf Saliva\nMonster Essence";
+            txt_SusceptibilityText.Text = "Moon Dust\nDevil's Puffball\nCursed Oil\nIgni";
             
 
         }
@@ -52,6 +52,13 @@ namespace Bestiary.Cursed
             button_return.Visibility = Visibility.Collapsed;
             img_Mob.Visibility = Visibility.Collapsed; 
             img_back.Visibility = Visibility.Collapsed;
+            button_Variation1.Visibility = Visibility.Collapsed;
+            txt_Variation.Visibility = Visibility.Collapsed;
+
+        }
+
+        private void Button_Variation1_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }

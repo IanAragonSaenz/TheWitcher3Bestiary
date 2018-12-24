@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace Bestiary.Beasts
 {
-    /// <summary>
-    /// Interaction logic for Bear.xaml
-    /// </summary>
+  
     public partial class Bear : Page
     {
         public Bear()
@@ -27,7 +25,9 @@ namespace Bestiary.Beasts
 
         private void Button_Variation1_Click(object sender, RoutedEventArgs e)
         {
-
+            Cursed.Berserker berserker = new Cursed.Berserker();
+            LoadPage.NavigationService.Navigate(berserker);
+            Clear();
         }
 
         private void Button_return_Click(object sender, RoutedEventArgs e)
