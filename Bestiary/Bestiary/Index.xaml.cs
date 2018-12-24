@@ -35,6 +35,8 @@ namespace Bestiary
         private void Button_CursedOnes_Click(object sender, RoutedEventArgs e)
         {
             ChangePage();
+            Cursed_Index cursedInd = new Cursed_Index();
+            LoadPage.NavigationService.Navigate(cursedInd);
 
         }
 

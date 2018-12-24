@@ -37,7 +37,7 @@
             </Button.Background>
         </Button>
 
-        <Button Name="button_Mute" Click="Button_Mute_Click" Visibility="Hidden" Foreground="ForestGreen" FontSize="40" FontWeight="UltraBlack" Content="♪" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="454,57.4,410.6,180.8" Grid.Row="1" Height="53" Width="49">
+        <Button Name="button_Mute" Click="Button_Mute_Click" Visibility="Hidden" Foreground="ForestGreen" FontSize="40" FontWeight="UltraBlack" Content="♪" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="51,201.4,813.6,36.8" Grid.Row="1" Height="53" Width="49">
             <Button.Background>
                 <ImageBrush ImageSource="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\button_Bestiary.png"></ImageBrush>
             </Button.Background>
