@@ -59,7 +59,9 @@ namespace Bestiary.Cursed
 
         private void Button_Variation1_Click(object sender, RoutedEventArgs e)
         {
-
+            Ulfhedinn ulf = new Ulfhedinn();
+            LoadPage.NavigationService.Navigate(ulf);
+            Clear();
         }
     }
 }

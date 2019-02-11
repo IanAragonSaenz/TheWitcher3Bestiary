@@ -50,7 +50,9 @@ namespace Bestiary
 
         private void Button_3_Click(object sender, RoutedEventArgs e)
         {
-
+            Cursed.Toad toad = new Cursed.Toad();
+            ChangePage();
+            LoadPage.NavigationService.Navigate(toad);
         }
 
         private void Button_4_Click(object sender, RoutedEventArgs e)
@@ -69,7 +71,9 @@ namespace Bestiary
 
         private void Button_6_Click(object sender, RoutedEventArgs e)
         {
-
+            Cursed.Werewolf wolf = new Cursed.Werewolf();
+            ChangePage();
+            LoadPage.NavigationService.Navigate(wolf);
         }
 
         private void Button_7_Click(object sender, RoutedEventArgs e)

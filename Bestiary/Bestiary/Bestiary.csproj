@@ -94,11 +94,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Cursed\Toad.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Cursed\Lubberkin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Cursed\Berserker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Cursed\Werewolf.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -115,6 +123,30 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Cursed\Cursed_Index.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Draconids\RoyalWy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Draconids\Shrieker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Draconids\Cockatrices.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Draconids\Slyzard.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Draconids\Basilisks.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Draconids\Draco_Index.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -157,11 +189,17 @@
     <Compile Include="Beasts\Beast_Index.xaml.cs">
       <DependentUpon>Beast_Index.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Cursed\Toad.xaml.cs">
+      <DependentUpon>Toad.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Cursed\Lubberkin.xaml.cs">
       <DependentUpon>Lubberkin.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cursed\Berserker.xaml.cs">
       <DependentUpon>Berserker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cursed\Werewolf.xaml.cs">
+      <DependentUpon>Werewolf.xaml</DependentUpon>
     </Compile>
     <Compile Include="Cursed\Ulfhedinn.xaml.cs">
       <DependentUpon>Ulfhedinn.xaml</DependentUpon>
@@ -174,6 +212,24 @@
     </Compile>
     <Compile Include="Cursed\Cursed_Index.xaml.cs">
       <DependentUpon>Cursed_Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Draconids\RoyalWy.xaml.cs">
+      <DependentUpon>RoyalWy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Draconids\Shrieker.xaml.cs">
+      <DependentUpon>Shrieker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Draconids\Cockatrices.xaml.cs">
+      <DependentUpon>Cockatrices.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Draconids\Slyzard.xaml.cs">
+      <DependentUpon>Slyzard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Draconids\Basilisks.xaml.cs">
+      <DependentUpon>Basilisks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Draconids\Draco_Index.xaml.cs">
+      <DependentUpon>Draco_Index.xaml</DependentUpon>
     </Compile>
     <Compile Include="Index.xaml.cs">
       <DependentUpon>Index.xaml</DependentUpon>
@@ -210,5 +266,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

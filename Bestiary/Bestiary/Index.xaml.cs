@@ -43,6 +43,8 @@ namespace Bestiary
         private void Button_Draconoids_Click(object sender, RoutedEventArgs e)
         {
             ChangePage();
+            Draco_Index dracoInd = new Draco_Index();
+            LoadPage.NavigationService.Navigate(dracoInd);
         }
 
         private void Button_Elementa_Click(object sender, RoutedEventArgs e)

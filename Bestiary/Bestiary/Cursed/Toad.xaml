@@ -1,0 +1,34 @@
+﻿<Page x:Class="Bestiary.Cursed.Toad"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Bestiary.Beasts"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Bear" Height="550" Width="920" Background="White">
+
+    <Grid>
+        <Frame x:Name="LoadPage" NavigationUIVisibility="Hidden"/>
+        <Image Name="img_back" HorizontalAlignment="Left" Height="702"  VerticalAlignment="Top" Width="920" Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\background2.jpg" Margin="0,-116,0,-35.6"/>
+        <TextBlock Name="txt_Title" HorizontalAlignment="Left" Margin="68,27,0,0" TextWrapping="Wrap" FontSize="35" FontFamily="Faith Collapsing" Text="The Toad Prince" VerticalAlignment="Top"/>
+        <Image Name="img_Mob" HorizontalAlignment="Left" Height="425" Margin="513,115,-63,0" VerticalAlignment="Top" Width="470" Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\toad.png" Opacity="0.5" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <TextBlock Name="txt_Description" HorizontalAlignment="Left" Margin="68,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-5.664,0.612" TextAlignment="Justify" FontFamily="Faith Collapsing" FontSize="18" Width="736"/>
+
+        <TextBlock Name="txt_Susceptibility" Text="Susceptibility" FontSize="35" FontFamily="Faith Collapsing" Margin="270,180,466,324.4"/>
+        <TextBlock Name="txt_Ocurrence" Text="Ocurrence" FontSize="35" FontFamily="Faith Collapsing" Margin="68,180,719,324.4"/>
+
+        <Button    Name="button_return"      Click="Button_return_Click" Content="Cursed Ones Index" Background="Transparent" FontFamily="Faith Collapsing" FontSize="25" BorderThickness="0" HorizontalAlignment="Left" Margin="343,469,0,0" VerticalAlignment="Top" Width="auto" RenderTransformOrigin="0.181,0.263"/>
+        <TextBlock Name="txt_OcurrenceText" Text="Toussaint" Width="Auto" TextAlignment="Center" FontFamily="Faith Collapsing" FontSize="25" HorizontalAlignment="Left" Margin="91,226,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"  Height="113" RenderTransformOrigin="0.524,0.414"/>
+        <TextBlock Name="txt_SusceptibilityText" LineHeight="10" TextWrapping="Wrap" TextAlignment="Center" FontFamily="Faith Collapsing" FontSize="25" Text="Beast Oil" Margin="270,226,485,151.4" RenderTransformOrigin="0.477,0.07"/>
+    </Grid>
+</Page>

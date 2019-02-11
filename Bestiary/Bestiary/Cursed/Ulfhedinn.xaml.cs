@@ -59,6 +59,9 @@ namespace Bestiary.Cursed
 
         private void Button_Variation1_Click(object sender, RoutedEventArgs e)
         {
+            Werewolf were = new Werewolf();
+            LoadPage.NavigationService.Navigate(were);
+            Clear();
 
         }
     }

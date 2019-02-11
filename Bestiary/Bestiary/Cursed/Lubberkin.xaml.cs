@@ -51,8 +51,8 @@ namespace Bestiary.Cursed
          private void Button_Variation1_Click(object sender, RoutedEventArgs e)
          {
 
-             Beasts.Bear bear = new Beasts.Bear();
-             LoadPage.NavigationService.Navigate(bear);
+             Botchling botch= new Botchling();
+             LoadPage.NavigationService.Navigate(botch);
              Clear();
          }
     }

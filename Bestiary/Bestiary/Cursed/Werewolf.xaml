@@ -29,6 +29,6 @@
         <TextBlock Name="txt_LootText" FontFamily="Faith Collapsing" FontSize="25" HorizontalAlignment="Left" Margin="68,12.976,0,0" TextWrapping="Wrap" Text="Bear Fat" TextAlignment="Center" VerticalAlignment="Top" Width="172" Height="112" RenderTransformOrigin="0.5,0.5" Grid.Row="1">
 
         </TextBlock>
-        <Button Name="button_Variation1" Content="Werewolf" Click="Button_Variation1_Click" HorizontalAlignment="Left" Margin="326,144.976,0,0" VerticalAlignment="Top" FontFamily="Faith Collapsing" FontSize="20" Width="75" BorderThickness="0" Background="Transparent" Grid.Row="1"/>
+        <Button Name="button_Variation1" Content="Ulfhedinn" Click="Button_Variation1_Click" HorizontalAlignment="Left" Margin="326,144.976,0,0" VerticalAlignment="Top" FontFamily="Faith Collapsing" FontSize="20" Width="75" BorderThickness="0" Background="Transparent" Grid.Row="1"/>
     </Grid>
 </Page>
