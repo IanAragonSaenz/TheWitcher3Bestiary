@@ -53,7 +53,16 @@ namespace Bestiary
             button_return.Visibility = Visibility.Collapsed;
             img_Mob.Visibility = Visibility.Collapsed; 
             img_back.Visibility = Visibility.Collapsed;
+            txt_variation.Visibility = Visibility.Collapsed;
+            btn_Variation.Visibility = Visibility.Collapsed;
 
+        }
+
+        private void Btn_Variation_Click(object sender, RoutedEventArgs e)
+        {
+            Clear();
+            Cockatrices cocki = new Cockatrices();
+            LoadPage.NavigationService.Navigate(cocki);
         }
     }
 }

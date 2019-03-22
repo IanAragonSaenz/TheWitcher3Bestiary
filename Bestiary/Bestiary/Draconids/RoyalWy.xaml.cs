@@ -54,7 +54,16 @@ namespace Bestiary
             button_return.Visibility = Visibility.Collapsed;
             img_Mob.Visibility = Visibility.Collapsed; 
             img_back.Visibility = Visibility.Collapsed;
-
+            btn_Variation.Visibility = Visibility.Collapsed;
+            txt_variation.Visibility = Visibility.Collapsed;
+            
+        }
+        
+        private void Btn_Variation_Click(object sender,RoutedEventArgs e)
+        {
+            Clear();
+            Wyverns wyv = new Wyverns();
+            LoadPage.NavigationService.Navigate(wyv);
         }
     }
 }

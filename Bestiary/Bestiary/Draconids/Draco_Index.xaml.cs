@@ -51,7 +51,8 @@ namespace Bestiary
 
         private void Button_3_Click(object sender, RoutedEventArgs e)
         {
-     
+            Forktail forkTail = new Forktail();
+            LoadPage.NavigationService.Navigate(forkTail);
             ChangePage();
          
         }
@@ -72,7 +73,10 @@ namespace Bestiary
 
         private void Button_6_Click(object sender, RoutedEventArgs e)
         {
+            SilverBask silvb = new SilverBask();
             ChangePage();
+            LoadPage.NavigationService.Navigate(silvb);
+
         }
 
         private void Button_7_Click(object sender, RoutedEventArgs e)
@@ -104,12 +108,23 @@ namespace Bestiary
 
         private void Button_8_Click(object sender, RoutedEventArgs e)
         {
-
+            ChangePage();
+            SlyMatriarch seviper = new SlyMatriarch();
+            LoadPage.NavigationService.Navigate(seviper);
         }
 
         private void Button_9_Click(object sender, RoutedEventArgs e)
         {
+            TheDragon mahdragon = new TheDragon();
+            ChangePage();
+            LoadPage.NavigationService.Navigate(mahdragon);
+        }
 
+        private void Button_10_Click(object sender, RoutedEventArgs e)
+        {
+            ChangePage();
+            Wyverns wyvern = new Wyverns();
+            LoadPage.NavigationService.Navigate(wyvern);
         }
     }
 }

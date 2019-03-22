@@ -50,6 +50,8 @@ namespace Bestiary
         private void Button_Elementa_Click(object sender, RoutedEventArgs e)
         {
             ChangePage();
+            Elementa_Index elementa = new Elementa_Index();
+            LoadPage.NavigationService.Navigate(elementa);
         }
 
         private void Button_Insectoids_Click(object sender, RoutedEventArgs e)

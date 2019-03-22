@@ -126,6 +126,26 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Draconids\SlyMatriarch.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Draconids\Forktail.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Draconids\TheDragon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Draconids\Wyverns.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Draconids\SilverBask.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Draconids\RoyalWy.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -147,6 +167,22 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Draconids\Draco_Index.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Elementa\Pixies.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Elementa\Golem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Elementa\Djinn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Elementa\Elementa_Index.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -213,6 +249,21 @@
     <Compile Include="Cursed\Cursed_Index.xaml.cs">
       <DependentUpon>Cursed_Index.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Draconids\SlyMatriarch.xaml.cs">
+      <DependentUpon>SlyMatriarch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Draconids\Forktail.xaml.cs">
+      <DependentUpon>Forktail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Draconids\TheDragon.xaml.cs">
+      <DependentUpon>TheDragon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Draconids\Wyverns.xaml.cs">
+      <DependentUpon>Wyverns.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Draconids\SilverBask.xaml.cs">
+      <DependentUpon>SilverBask.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Draconids\RoyalWy.xaml.cs">
       <DependentUpon>RoyalWy.xaml</DependentUpon>
     </Compile>
@@ -230,6 +281,18 @@
     </Compile>
     <Compile Include="Draconids\Draco_Index.xaml.cs">
       <DependentUpon>Draco_Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elementa\Pixies.xaml.cs">
+      <DependentUpon>Pixies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elementa\Golem.xaml.cs">
+      <DependentUpon>Golem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elementa\Djinn.xaml.cs">
+      <DependentUpon>Djinn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elementa\Elementa_Index.xaml.cs">
+      <DependentUpon>Elementa_Index.xaml</DependentUpon>
     </Compile>
     <Compile Include="Index.xaml.cs">
       <DependentUpon>Index.xaml</DependentUpon>

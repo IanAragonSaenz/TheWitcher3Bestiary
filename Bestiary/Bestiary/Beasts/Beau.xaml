@@ -21,7 +21,7 @@
 
         <Button    Name="button_return"      Click="Button_return_Click" Content="Beast Index" Background="Transparent" FontFamily="Faith Collapsing" FontSize="25" BorderThickness="0" HorizontalAlignment="Left" Margin="372,444,0,0" VerticalAlignment="Top" Width="auto" RenderTransformOrigin="0.181,0.263"/>
         <TextBlock Name="txt_OcurrenceText" Text="Toussaint" Width="Auto" TextAlignment="Center" FontFamily="Faith Collapsing" FontSize="25" HorizontalAlignment="Left" Margin="134,232,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"  Height="113" RenderTransformOrigin="0.524,0.414"/>
-        <TextBlock Name="txt_SusceptibilityText" LineHeight="10" TextWrapping="Wrap" TextAlignment="Center" FontFamily="Faith Collapsing" FontSize="25" Text="Beast Oil" Margin="372,232,383,255.4" RenderTransformOrigin="0.477,0.07"/>
+        <TextBlock Name="txt_SusceptibilityText" LineHeight="10" TextWrapping="Wrap" TextAlignment="Center" FontFamily="Faith Collapsing" FontSize="25" Text="Beast Oil" Margin="372,232,383,205.4" RenderTransformOrigin="0.477,0.07"/>
 
     </Grid>
 </Page>

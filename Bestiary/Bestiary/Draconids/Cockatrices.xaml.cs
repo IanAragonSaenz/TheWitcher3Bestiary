@@ -28,8 +28,6 @@ namespace Bestiary
                 "\nOne should instead watch out for it's sharp beak and long tail, which it can whip to murderous effect.";
             txt_LootText.Text = "Cockatrice Egg\nCockatrice Mutagen\nCockatrice Stomach\nCockatrice Trophy\nMonster Carapace";
             txt_SusceptibilityText.Text = "Grapeshot\nDraconid Oil\nAard";
-            
-
         }
 
         private void Button_return_Click(object sender, RoutedEventArgs e)

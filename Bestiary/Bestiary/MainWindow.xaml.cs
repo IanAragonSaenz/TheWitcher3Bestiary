@@ -21,7 +21,6 @@ namespace Bestiary
     /// </summary>
     public partial class MainWindow : Window
     {
-        int i=0;
         bool isMute = false;
         public MainWindow()
         {

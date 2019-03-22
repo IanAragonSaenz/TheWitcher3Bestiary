@@ -23,7 +23,7 @@
         <Button Name="button_7" Content="Slyzard"  Click="Button_7_Click" BorderThickness="0" Background="Transparent" FontFamily="Faith Collapsing" FontSize="32" Height="auto" Width="auto" Margin="352,137,372,375.4" RenderTransformOrigin="0.577,0.529"/>
         <Button Name="button_8" Content="Slyzard Matriarchs"  Click="Button_8_Click" BorderThickness="0" Background="Transparent" FontFamily="Faith Collapsing" FontSize="32" Height="auto" Width="auto" Margin="617,314,107,198.4" RenderTransformOrigin="0.577,0.529"/>
         <Button Name="button_9" Content="The Dragon of Fyresdal"  Click="Button_9_Click" BorderThickness="0" Background="Transparent" FontFamily="Faith Collapsing" FontSize="32" Height="auto" Width="auto" Margin="294,385,308,127.4" RenderTransformOrigin="0.577,0.529"/>
-        <Button Name="button_10" Content="Wyverns"  Click="Button_7_Click" BorderThickness="0" Background="Transparent" FontFamily="Faith Collapsing" FontSize="32" Height="auto" Width="auto" Margin="141,306,583,206.4" RenderTransformOrigin="0.577,0.529"/>
+        <Button Name="button_10" Content="Wyverns"  Click="Button_10_Click" BorderThickness="0" Background="Transparent" FontFamily="Faith Collapsing" FontSize="32" Height="auto" Width="auto" Margin="141,306,583,206.4" RenderTransformOrigin="0.577,0.529"/>
 
 
 
