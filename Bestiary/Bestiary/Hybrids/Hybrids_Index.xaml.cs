@@ -101,8 +101,6 @@ namespace Bestiary
             button_7.Visibility = Visibility.Collapsed;
             button_8.Visibility = Visibility.Collapsed;
             button_9.Visibility = Visibility.Collapsed;
-            button_10.Visibility = Visibility.Collapsed;
-            button_11.Visibility = Visibility.Collapsed;
             button_Return.Visibility = Visibility.Collapsed;
             img_Back.Visibility = Visibility.Collapsed; 
           
@@ -120,13 +118,6 @@ namespace Bestiary
             TheDragon mahdragon = new TheDragon();
             ChangePage();
             LoadPage.NavigationService.Navigate(mahdragon);
-        }
-
-        private void Button_10_Click(object sender, RoutedEventArgs e)
-        {
-            ChangePage();
-            Wyverns wyvern = new Wyverns();
-            LoadPage.NavigationService.Navigate(wyvern);
         }
     }
 }

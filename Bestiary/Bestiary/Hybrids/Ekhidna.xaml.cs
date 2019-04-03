@@ -23,11 +23,13 @@ namespace Bestiary
         public Ekhidna()
         {
             InitializeComponent();
-            txt_Description.Text ="They are elemental genie of Air. They are powerful creatures that are capable "
-                +"of great feats. Once captures, they are then bound to the captor and have to fulfull three wishes. " +
-                "Following their completion, they are free once more.";
+            txt_Description.Text ="Ekhidnae are a longer, stronger, breed of sirens."
+                +"They make bodies of water a dangerous place.";
+            txt_LootText.Text = "Ekhidna Mutagen\nLock of lamia hair\nMonster brain\nMonster blood\nMonster bone\n"
+                + "Monster claw\nmonster ear\nMonster eye\nMonster heart\nMonster liver\nMonster saliva\nMonster tongue\nMonster tooth\n"
+                + "Sea shell\nWater essence";
            
-            txt_SusceptibilityText.Text = "Dimerintium Bomb\nElementa Oil";
+            txt_SusceptibilityText.Text = "Grapeshot\nHhybrid oil\nIgni\nAard";
             
 
         }
