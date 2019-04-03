@@ -59,16 +59,17 @@ namespace Bestiary
 
         private void Button_4_Click(object sender, RoutedEventArgs e)
         {
-            RoyalWy royal = new RoyalWy();
+            EarthE earthE = new EarthE();
             ChangePage();
-            LoadPage.NavigationService.Navigate(royal);
+            LoadPage.NavigationService.Navigate(earthE);
         }
 
         private void Button_5_Click(object sender, RoutedEventArgs e)
         {
-            Shrieker shrieker = new Shrieker();
+            //Hound of the wild Hunt
+            HoundWildHunt houndwildhunt = new HoundWildHunt();
             ChangePage();
-            LoadPage.NavigationService.Navigate(shrieker);
+            LoadPage.NavigationService.Navigate(houndwildhunt);
         }
 
         private void Button_6_Click(object sender, RoutedEventArgs e)

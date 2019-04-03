@@ -170,6 +170,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Elementa\HoundWildHunt.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Elementa\EarthE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Elementa\Pixies.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -281,6 +289,12 @@
     </Compile>
     <Compile Include="Draconids\Draco_Index.xaml.cs">
       <DependentUpon>Draco_Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elementa\HoundWildHunt.xaml.cs">
+      <DependentUpon>HoundWildHunt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elementa\EarthE.xaml.cs">
+      <DependentUpon>EarthE.xaml</DependentUpon>
     </Compile>
     <Compile Include="Elementa\Pixies.xaml.cs">
       <DependentUpon>Pixies.xaml</DependentUpon>

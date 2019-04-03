@@ -82,3 +82,7 @@ C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\o
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Elementa\Golem.baml
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Elementa\Pixies.g.cs
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Elementa\Pixies.baml
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Elementa\EarthE.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Elementa\EarthE.baml
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Elementa\HoundWildHunt.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Elementa\HoundWildHunt.baml

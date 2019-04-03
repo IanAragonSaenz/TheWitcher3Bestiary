@@ -15,24 +15,27 @@ using System.Windows.Shapes;
 
 namespace Bestiary
 {
-
-    public partial class Pixies : Page
+    /// <summary>
+    /// Interaction logic for Bear.xaml
+    /// </summary>
+    public partial class HoundWildHunt: Page
     {
-        public Pixies()
+        public HoundWildHunt()
         {
             InitializeComponent();
-            txt_Description.Text ="Pixies might look like gentle, harmless creatures, yet in their case, the saying about appearances being deveiving " +
-                "fits all too perfectly. The pixies from the Land of a Thousand Fables were created to protect that magic place from" +
-                "intruders and ensure the ducal daughters.";
-            txt_LootText.Text = "Golem's Heart\nInfused Dust\nMonster Essence\nMonster Saliva\nRunestones";
-            txt_SusceptibilityText.Text = "Elementa Oil";
+            txt_Description.Text ="Born, or so some experts believe, of magic ice crystal, the Hounds of the" +
+                "Wild Hunt race alongside their spectral masters. Like ravenous, feral dogs they are capable" +
+                "only of mindleslly attacking whatever crosses their path.";
+            txt_LootText.Text = "Monster Bone\nMonster Brain\nMonster Saliva\nRotting Flesh\nSulfur";
+            txt_SusceptibilityText.Text = "Dimeritium Bomb\nElementa Oil\nIgni\nAxii";
+            txt_Ocurrence.Text = "Always with Wild Hunt";
         }
 
         private void Button_return_Click(object sender, RoutedEventArgs e)
         {
-            Elementa_Index ind = new Elementa_Index();
+            Elementa_Index elementa = new Elementa_Index();
             Clear();
-            LoadPage.NavigationService.Navigate(ind);
+            LoadPage.NavigationService.Navigate(elementa);
         }
 
         private void Clear()

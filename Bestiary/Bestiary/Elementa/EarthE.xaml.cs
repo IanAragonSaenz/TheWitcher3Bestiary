@@ -15,24 +15,28 @@ using System.Windows.Shapes;
 
 namespace Bestiary
 {
-
-    public partial class Pixies : Page
+    /// <summary>
+    /// Interaction logic for Bear.xaml
+    /// </summary>
+    public partial class EarthE: Page
     {
-        public Pixies()
+        public EarthE()
         {
             InitializeComponent();
-            txt_Description.Text ="Pixies might look like gentle, harmless creatures, yet in their case, the saying about appearances being deveiving " +
-                "fits all too perfectly. The pixies from the Land of a Thousand Fables were created to protect that magic place from" +
-                "intruders and ensure the ducal daughters.";
+            txt_Description.Text ="Golems are mindless matter brought to life by a spell." +
+                "They obet  their creator's orders without question. Their boundless strength, ability" +
+                " to withstand pain, endless patience and the fact that neet not one jot of food or drink makes them the best" +
+                "servants or guards anyone could ask for. Once provoked, they will not tire of battle until they have either crushed their " +
+                "opponent or themseleves crumbled to dust.";
             txt_LootText.Text = "Golem's Heart\nInfused Dust\nMonster Essence\nMonster Saliva\nRunestones";
-            txt_SusceptibilityText.Text = "Elementa Oil";
+            txt_SusceptibilityText.Text = "Dimeritium Bomb\nElementa Oil";
         }
 
         private void Button_return_Click(object sender, RoutedEventArgs e)
         {
-            Elementa_Index ind = new Elementa_Index();
+            Elementa_Index elementa = new Elementa_Index();
             Clear();
-            LoadPage.NavigationService.Navigate(ind);
+            LoadPage.NavigationService.Navigate(elementa);
         }
 
         private void Clear()
