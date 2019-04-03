@@ -82,9 +82,9 @@ namespace Bestiary
 
         private void Button_7_Click(object sender, RoutedEventArgs e)
         {
-            Slyzard sly = new Slyzard();
+            Harpy harpy = new Harpy();
             ChangePage();
-            LoadPage.NavigationService.Navigate(sly);
+            LoadPage.NavigationService.Navigate(harpy);
         }
 
         private void ChangePage()
