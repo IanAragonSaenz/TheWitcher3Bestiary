@@ -12,7 +12,7 @@
         <Frame x:Name="LoadPage" NavigationUIVisibility="Hidden"/>
         <Image Name="img_back" HorizontalAlignment="Left" Height="702"  VerticalAlignment="Top" Width="920" Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\background2.jpg" Margin="0,-116,0,-35.6"/>
         <TextBlock Name="txt_Title" HorizontalAlignment="Left" Margin="68,27,0,0" TextWrapping="Wrap" FontSize="35" FontFamily="Faith Collapsing" Text="Erynia" VerticalAlignment="Top"/>
-        <Image Name="img_Mob" HorizontalAlignment="Left" Height="209" Margin="608,251,-37,0" VerticalAlignment="Top" Width="349" Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\Ekhidna.png" Opacity="0.5" RenderTransformOrigin="0.5,0.5"/>
+        <Image Name="img_Mob" HorizontalAlignment="Left" Height="209" Margin="608,251,-37,0" VerticalAlignment="Top" Width="349" Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\Erynia.png" Opacity="0.5" RenderTransformOrigin="0.5,0.5"/>
         <TextBlock Name="txt_Description" HorizontalAlignment="Left" Margin="68,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-5.664,0.612" TextAlignment="Justify" FontFamily="Faith Collapsing" FontSize="18" Width="736"/>
 
         <TextBlock Name="txt_Susceptibility" Text="Susceptibility" FontSize="35" FontFamily="Faith Collapsing" Margin="343,159,393,345.4"/>
