@@ -130,3 +130,7 @@ C:\Users\ianan\Desktop\TheWitcher3Bestiary\Bestiary\Bestiary\obj\Debug\Bestiary_
 C:\Users\ianan\Desktop\TheWitcher3Bestiary\Bestiary\Bestiary\obj\Debug\Bestiary.exe
 C:\Users\ianan\Desktop\TheWitcher3Bestiary\Bestiary\Bestiary\obj\Debug\Bestiary.pdb
 C:\Users\ianan\Desktop\TheWitcher3Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Ekhidna.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Salma.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Harpy.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Ekhidna.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Hybrids_Index.g.cs
