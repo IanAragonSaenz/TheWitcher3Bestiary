@@ -134,3 +134,7 @@ C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\o
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Harpy.g.cs
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Ekhidna.g.cs
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Hybrids_Index.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Salma.baml
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Harpy.baml
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Ekhidna.baml
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Hybrids_Index.baml
