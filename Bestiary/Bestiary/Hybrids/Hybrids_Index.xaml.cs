@@ -67,9 +67,9 @@ namespace Bestiary
         private void Button_5_Click(object sender, RoutedEventArgs e)
         {
             //Hound of the wild Hunt
-            HoundWildHunt houndwildhunt = new HoundWildHunt();
+            Erynia erynia = new Erynia();
             ChangePage();
-            LoadPage.NavigationService.Navigate(houndwildhunt);
+            LoadPage.NavigationService.Navigate(erynia);
         }
 
         private void Button_6_Click(object sender, RoutedEventArgs e)
