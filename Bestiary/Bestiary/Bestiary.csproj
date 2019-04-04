@@ -170,6 +170,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Hybrids\Salma.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Harpy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Ekhidna.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Hybrids_Index.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Elementa\HoundWildHunt.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -289,6 +305,18 @@
     </Compile>
     <Compile Include="Draconids\Draco_Index.xaml.cs">
       <DependentUpon>Draco_Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Salma.xaml.cs">
+      <DependentUpon>Salma.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Harpy.xaml.cs">
+      <DependentUpon>Harpy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Ekhidna.xaml.cs">
+      <DependentUpon>Ekhidna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Hybrids_Index.xaml.cs">
+      <DependentUpon>Hybrids_Index.xaml</DependentUpon>
     </Compile>
     <Compile Include="Elementa\HoundWildHunt.xaml.cs">
       <DependentUpon>HoundWildHunt.xaml</DependentUpon>

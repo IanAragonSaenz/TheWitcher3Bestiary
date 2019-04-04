@@ -67,6 +67,8 @@ namespace Bestiary
         private void Button_Hybrids_Click(object sender, RoutedEventArgs e)
         {
             ChangePage();
+            Hybrids_Index hybrids = new Hybrids_Index();
+            LoadPage.NavigationService.Navigate(hybrids);
         }
 
         private void Button_Ogroids_Click(object sender, RoutedEventArgs e)

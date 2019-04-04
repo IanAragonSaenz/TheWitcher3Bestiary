@@ -1,0 +1,25 @@
+﻿<Page x:Class="Bestiary.Harpy"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Bestiary.Beasts"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Bear" Height="550" Width="920" Background="White">
+
+    <Grid>
+        <Frame x:Name="LoadPage" NavigationUIVisibility="Hidden"/>
+        <Image Name="img_back" HorizontalAlignment="Left" Height="702"  VerticalAlignment="Top" Width="920" Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\background2.jpg" Margin="0,-116,0,-35.6"/>
+        <TextBlock Name="txt_Title" HorizontalAlignment="Left" Margin="68,27,0,0" TextWrapping="Wrap" FontSize="35" FontFamily="Faith Collapsing" Text="Harpy" VerticalAlignment="Top"/>
+        <Image Name="img_Mob" HorizontalAlignment="Left" Height="209" Margin="608,251,-37,0" VerticalAlignment="Top" Width="349" Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\Harpy.png" Opacity="0.5" RenderTransformOrigin="0.5,0.5"/>
+        <TextBlock Name="txt_Description" HorizontalAlignment="Left" Margin="68,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-5.664,0.612" TextAlignment="Justify" FontFamily="Faith Collapsing" FontSize="18" Width="736"/>
+
+        <TextBlock Name="txt_Susceptibility" Text="Susceptibility" FontSize="35" FontFamily="Faith Collapsing" Margin="343,159,393,345.4"/>
+        <TextBlock Name="txt_Loot" FontSize="40" Text="Loot" FontFamily="Faith Collapsing" Margin="88,154,745,350" RenderTransformOrigin="0.914,0.557"/>
+
+        <Button    Name="button_return"      Click="Button_return_Click" Content="Hybrids Index" Background="Transparent" FontFamily="Faith Collapsing" FontSize="25" BorderThickness="0" HorizontalAlignment="Left" Margin="343,469,0,0" VerticalAlignment="Top" Width="auto" RenderTransformOrigin="0.181,0.263"/>
+        <TextBlock Name="txt_SusceptibilityText" LineHeight="10" TextWrapping="Wrap" TextAlignment="Center" FontFamily="Faith Collapsing" FontSize="25" Text="Beast Oil" Margin="360,210,395,211.4" RenderTransformOrigin="0.477,0.07"/>
+        <TextBlock Name="txt_LootText" Text="" FontFamily="Faith Collapsing" FontSize="25" HorizontalAlignment="Left" Margin="68,210,0,0" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="172" Height="112" RenderTransformOrigin="0.5,0.5"/>
+    </Grid>
+</Page>
