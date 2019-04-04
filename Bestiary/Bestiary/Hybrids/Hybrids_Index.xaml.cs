@@ -27,8 +27,8 @@ namespace Bestiary
         private void Button_1_Click(object sender, RoutedEventArgs e)
         {
             ChangePage();
-            Djinn djinn = new Djinn();
-            LoadPage.NavigationService.Navigate(djinn);
+            Melusine melusine = new Melusine();
+            LoadPage.NavigationService.Navigate(melusine);
             
 
         }
