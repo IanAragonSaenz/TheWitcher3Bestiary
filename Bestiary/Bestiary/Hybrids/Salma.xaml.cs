@@ -42,8 +42,6 @@ namespace Bestiary
         private void Clear()
         {
             txt_Description.Visibility = Visibility.Collapsed;
-            txt_Loot.Visibility = Visibility.Collapsed;
-            txt_LootText.Visibility = Visibility.Collapsed;
             
             txt_Susceptibility.Visibility = Visibility.Collapsed;
             txt_SusceptibilityText.Visibility = Visibility.Collapsed;
