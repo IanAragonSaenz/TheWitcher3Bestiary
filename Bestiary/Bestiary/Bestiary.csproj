@@ -170,6 +170,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Hybrids\Melusine.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Erynia.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Hybrids\Salma.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -305,6 +313,12 @@
     </Compile>
     <Compile Include="Draconids\Draco_Index.xaml.cs">
       <DependentUpon>Draco_Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Melusine.xaml.cs">
+      <DependentUpon>Melusine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Erynia.xaml.cs">
+      <DependentUpon>Erynia.xaml</DependentUpon>
     </Compile>
     <Compile Include="Hybrids\Salma.xaml.cs">
       <DependentUpon>Salma.xaml</DependentUpon>
