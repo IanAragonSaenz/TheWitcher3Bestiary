@@ -21,7 +21,7 @@
         <Button Name="button_5" Content="Hound of the Wild Hunt" FontWeight="UltraLight" Click="Button_5_Click" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left" Margin="43,227,0,0" VerticalAlignment="Top" Width="auto" FontFamily="Faith Collapsing" FontSize="32"/>
         <Button Name="button_6" Content="The Apiarian Phantom" FontWeight="UltraLight" Click="Button_6_Click" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left" Margin="525,227,0,0" VerticalAlignment="Top" Width="auto" FontFamily="Faith Collapsing" FontSize="32"/>
         <Button Name="button_7" Content="Harpy"  Click="Button_7_Click" BorderThickness="0" FontWeight="UltraLight" Background="Transparent" FontFamily="Faith Collapsing" FontSize="32" Height="auto" Width="auto" Margin="364,145,360,367.4" RenderTransformOrigin="0.577,0.529"/>
-        <Button Name="button_8" Content="Ice Elemental" FontWeight="UltraLight"  Click="Button_8_Click" BorderThickness="0" Background="Transparent" FontFamily="Faith Collapsing" FontSize="32" Height="auto" Width="auto" Margin="613,145,111,367.4" RenderTransformOrigin="0.577,0.529"/>
+        <Button Name="button_8" Content="Salma" FontWeight="UltraLight"  Click="Button_8_Click" BorderThickness="0" Background="Transparent" FontFamily="Faith Collapsing" FontSize="32" Height="auto" Width="auto" Margin="613,145,111,367.4" RenderTransformOrigin="0.577,0.529"/>
         <Button Name="button_9" Content="Therazane"  Click="Button_9_Click" BorderThickness="0" Background="Transparent" FontFamily="Faith Collapsing" FontSize="32" Height="auto" Width="auto" Margin="141,380,648,132.4" RenderTransformOrigin="0.577,0.529"/>
       
 

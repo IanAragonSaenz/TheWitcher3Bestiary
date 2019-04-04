@@ -109,8 +109,8 @@ namespace Bestiary
         private void Button_8_Click(object sender, RoutedEventArgs e)
         {
             ChangePage();
-            SlyMatriarch seviper = new SlyMatriarch();
-            LoadPage.NavigationService.Navigate(seviper);
+            Salma salma = new Salma();
+            LoadPage.NavigationService.Navigate(salma);
         }
 
         private void Button_9_Click(object sender, RoutedEventArgs e)
