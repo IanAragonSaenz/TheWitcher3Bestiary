@@ -82,9 +82,9 @@ namespace Bestiary
 
         private void Button_7_Click(object sender, RoutedEventArgs e)
         {
-            Harpy harpy = new Harpy();
+            Fogler fogler = new Fogler();
             ChangePage();
-            LoadPage.NavigationService.Navigate(harpy);
+            LoadPage.NavigationService.Navigate(fogler);
         }
 
         private void ChangePage()
@@ -109,8 +109,8 @@ namespace Bestiary
         private void Button_8_Click(object sender, RoutedEventArgs e)
         {
             ChangePage();
-            Salma salma = new Salma();
-            LoadPage.NavigationService.Navigate(salma);
+            Rotfiend rotfiend = new Rotfiend();
+            LoadPage.NavigationService.Navigate(rotfiend);
         }
 
         private void Button_9_Click(object sender, RoutedEventArgs e)

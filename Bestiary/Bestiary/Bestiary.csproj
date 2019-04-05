@@ -170,6 +170,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Necrophages\Rotfiend.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Necrophages\Fogler.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Necrophages\Abaya.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Necrophages\Necrophages_Index.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Hybrids\Succubus.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -329,6 +345,18 @@
     </Compile>
     <Compile Include="Draconids\Draco_Index.xaml.cs">
       <DependentUpon>Draco_Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Necrophages\Rotfiend.xaml.cs">
+      <DependentUpon>Rotfiend.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Necrophages\Fogler.xaml.cs">
+      <DependentUpon>Fogler.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Necrophages\Abaya.xaml.cs">
+      <DependentUpon>Abaya.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Necrophages\Necrophages_Index.xaml.cs">
+      <DependentUpon>Necrophages_Index.xaml</DependentUpon>
     </Compile>
     <Compile Include="Hybrids\Succubus.xaml.cs">
       <DependentUpon>Succubus.xaml</DependentUpon>
