@@ -44,15 +44,15 @@ namespace Bestiary
 
         private void Button_2_Click(object sender, RoutedEventArgs e)
         {
-            Golem golem = new Golem();
+            Griffin griffin = new Griffin();
             ChangePage();
-            LoadPage.NavigationService.Navigate(golem);
+            LoadPage.NavigationService.Navigate(griffin);
         }
 
         private void Button_3_Click(object sender, RoutedEventArgs e)
         {
-            Pixies pixie = new Pixies();
-            LoadPage.NavigationService.Navigate(pixie);
+            Opinicus opinicus = new Opinicus();
+            LoadPage.NavigationService.Navigate(opinicus);
             ChangePage();
          
         }
@@ -74,9 +74,9 @@ namespace Bestiary
 
         private void Button_6_Click(object sender, RoutedEventArgs e)
         {
-            SilverBask silvb = new SilverBask();
+            Siren siren = new Siren();
             ChangePage();
-            LoadPage.NavigationService.Navigate(silvb);
+            LoadPage.NavigationService.Navigate(siren);
 
         }
 
@@ -115,9 +115,9 @@ namespace Bestiary
 
         private void Button_9_Click(object sender, RoutedEventArgs e)
         {
-            TheDragon mahdragon = new TheDragon();
+            Succubus succubus = new Succubus();
             ChangePage();
-            LoadPage.NavigationService.Navigate(mahdragon);
+            LoadPage.NavigationService.Navigate(succubus);
         }
     }
 }

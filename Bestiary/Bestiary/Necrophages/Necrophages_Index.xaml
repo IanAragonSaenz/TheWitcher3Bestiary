@@ -1,0 +1,33 @@
+﻿<Page x:Class="Bestiary.Necrophages_Index"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Bestiary"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Beast_Index" MaxHeight="550" MinHeight="550" MaxWidth="920" MinWidth="920">
+
+    <Grid>
+        <Frame x:Name="LoadPage" NavigationUIVisibility="Hidden"/>
+        <MediaElement Name="pageTurn" Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Sound\pageTurn.wav" LoadedBehavior="Manual"/>
+        <Image Name="img_Back" HorizontalAlignment="Left" VerticalAlignment="Top" Source="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Images\background2.jpg" Height="749" Width="920" Margin="0,-116,0,-82.6" RenderTransformOrigin="0.439,0.517"/>
+        <TextBlock Name="txt_Title" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Necrophages" FontWeight="UltraLight" VerticalAlignment="Top" FontFamily="Faith Collapsing" FontSize="70"/>
+        <TextBlock Name="txt_Description" HorizontalAlignment="Left" Height="51" Margin="156,81,0,0" TextWrapping="Wrap" Text="Monsters who haunt places filled with death " VerticalAlignment="Top" Width="600" FontFamily="Faith Collapsing" FontSize="36"/>
+        <Button Name="button_1" Content="Melusine" FontWeight="UltraLight" Click="Button_1_Click" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left" Margin="400,226,0,0" VerticalAlignment="Top" Width="auto" FontFamily="Faith Collapsing" FontSize="32" RenderTransformOrigin="0.426,1.656"/>
+        <Button Name="button_2" Content="Griffin" FontWeight="UltraLight" Click="Button_2_Click" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left" Margin="94,308,0,0" VerticalAlignment="Top" Width="auto" FontFamily="Faith Collapsing" FontSize="32"/>
+        <Button Name="button_3" Content="Opinicus " FontWeight="UltraLight" Click="Button_3_Click" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left" Margin="400,308,0,0" VerticalAlignment="Top" Width="auto" FontFamily="Faith Collapsing" FontSize="32"/>
+        <Button Name="button_4" Content="Abaya" FontWeight="UltraLight" Click="Button_4_Click" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left" Margin="94,152,0,0" VerticalAlignment="Top" Width="auto" FontFamily="Faith Collapsing" FontSize="32"/>
+        <Button Name="button_5" Content="Erynia" FontWeight="UltraLight" Click="Button_5_Click" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left" Margin="100,226,0,0" VerticalAlignment="Top" Width="auto" FontFamily="Faith Collapsing" FontSize="32"/>
+        <Button Name="button_6" Content="Siren" FontWeight="UltraLight" Click="Button_6_Click" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left" Margin="687,226,0,0" VerticalAlignment="Top" Width="auto" FontFamily="Faith Collapsing" FontSize="32"/>
+        <Button Name="button_7" Content="Fogler"  Click="Button_7_Click" BorderThickness="0" FontWeight="UltraLight" Background="Transparent" FontFamily="Faith Collapsing" FontSize="32" Height="auto" Width="auto" Margin="360,152,364,360" RenderTransformOrigin="0.577,0.529"/>
+        <Button Name="button_8" Content="Rotfiend" FontWeight="UltraLight"  Click="Button_8_Click" BorderThickness="0" Background="Transparent" FontFamily="Faith Collapsing" FontSize="32" Height="auto" Width="auto" Margin="630,160,94,353" RenderTransformOrigin="0.577,0.529"/>
+        <Button Name="button_9" Content="Succubus" FontWeight="UltraLight"  Click="Button_9_Click" BorderThickness="0" Background="Transparent" FontFamily="Faith Collapsing" FontSize="32" Height="auto" Width="auto" Margin="653,311,122,201" RenderTransformOrigin="0.577,0.529"/>
+      
+
+
+
+
+        <Button Name="button_Return" Content="Return" FontWeight="UltraLight" Click="Button_Return_Click" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left" Margin="406,458,0,0" VerticalAlignment="Top" Width="auto" FontFamily="Faith Collapsing" FontSize="32" RenderTransformOrigin="0.526,2"/>
+    </Grid>
+</Page>

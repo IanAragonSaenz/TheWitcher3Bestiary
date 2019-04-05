@@ -23,11 +23,9 @@ namespace Bestiary
         public Melusine()
         {
             InitializeComponent();
-            txt_Description.Text ="Ekhidnae are a longer, stronger, breed of sirens."
-                +"They make bodies of water a dangerous place.";
-            txt_LootText.Text = "Ekhidna Mutagen\nLock of lamia hair\nMonster brain\nMonster blood\nMonster bone\n"
-                + "Monster claw\nmonster ear\nMonster eye\nMonster heart\nMonster liver\nMonster saliva\nMonster tongue\nMonster tooth\n"
-                + "Sea shell\nWater essence";
+            txt_Description.Text = "Melusine is an old and powerful ekhidna living in a " +
+                "large complex of caves near the village of Svorlag, located in Skellige.";
+            txt_LootText.Text = "Ekhidna mutagen\nEkhidna trophy\nLock of lamia hair";
            
             txt_SusceptibilityText.Text = "Grapeshot\nHhybrid oil\nIgni\nAard";
             
