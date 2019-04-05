@@ -170,6 +170,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Necrophages\Ghoul.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Necrophages\Alghoul.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Necrophages\Rotfiend.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -345,6 +353,12 @@
     </Compile>
     <Compile Include="Draconids\Draco_Index.xaml.cs">
       <DependentUpon>Draco_Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Necrophages\Ghoul.xaml.cs">
+      <DependentUpon>Ghoul.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Necrophages\Alghoul.xaml.cs">
+      <DependentUpon>Alghoul.xaml</DependentUpon>
     </Compile>
     <Compile Include="Necrophages\Rotfiend.xaml.cs">
       <DependentUpon>Rotfiend.xaml</DependentUpon>

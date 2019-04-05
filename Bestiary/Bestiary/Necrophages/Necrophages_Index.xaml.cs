@@ -27,8 +27,8 @@ namespace Bestiary
         private void Button_1_Click(object sender, RoutedEventArgs e)
         {
             ChangePage();
-            Melusine melusine = new Melusine();
-            LoadPage.NavigationService.Navigate(melusine);
+            Ghoul ghoul = new Ghoul();
+            LoadPage.NavigationService.Navigate(ghoul);
             
 
         }
@@ -67,9 +67,9 @@ namespace Bestiary
         private void Button_5_Click(object sender, RoutedEventArgs e)
         {
             //Hound of the wild Hunt
-            Erynia erynia = new Erynia();
+            Alghoul alghoul = new Alghoul();
             ChangePage();
-            LoadPage.NavigationService.Navigate(erynia);
+            LoadPage.NavigationService.Navigate(alghoul);
         }
 
         private void Button_6_Click(object sender, RoutedEventArgs e)
