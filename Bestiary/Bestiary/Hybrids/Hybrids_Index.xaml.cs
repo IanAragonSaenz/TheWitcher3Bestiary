@@ -44,15 +44,15 @@ namespace Bestiary
 
         private void Button_2_Click(object sender, RoutedEventArgs e)
         {
-            Golem golem = new Golem();
+            Griffin griffin = new Griffin();
             ChangePage();
-            LoadPage.NavigationService.Navigate(golem);
+            LoadPage.NavigationService.Navigate(griffin);
         }
 
         private void Button_3_Click(object sender, RoutedEventArgs e)
         {
-            Pixies pixie = new Pixies();
-            LoadPage.NavigationService.Navigate(pixie);
+            Opinicus opinicus = new Opinicus();
+            LoadPage.NavigationService.Navigate(opinicus);
             ChangePage();
          
         }
