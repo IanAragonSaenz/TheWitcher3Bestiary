@@ -57,11 +57,14 @@ namespace Bestiary
         private void Button_Insectoids_Click(object sender, RoutedEventArgs e)
         {
             ChangePage();
+            
         }
 
         private void Button_Necrophages_Click(object sender, RoutedEventArgs e)
         {
             ChangePage();
+            Necrophages_Index necrophages = new Necrophages_Index();
+            LoadPage.NavigationService.Navigate(necrophages);
         }
 
         private void Button_Hybrids_Click(object sender, RoutedEventArgs e)
