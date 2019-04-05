@@ -74,9 +74,9 @@ namespace Bestiary
 
         private void Button_6_Click(object sender, RoutedEventArgs e)
         {
-            SilverBask silvb = new SilverBask();
+            Siren siren = new Siren();
             ChangePage();
-            LoadPage.NavigationService.Navigate(silvb);
+            LoadPage.NavigationService.Navigate(siren);
 
         }
 

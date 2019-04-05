@@ -18,14 +18,14 @@ namespace Bestiary
     /// <summary>
     /// Interaction logic for Bear.xaml
     /// </summary>
-    public partial class Melusine : Page
+    public partial class Siren : Page
     {
-        public Melusine()
+        public Siren()
         {
             InitializeComponent();
-            txt_Description.Text = "Melusine is an old and powerful ekhidna living in a " +
-                "large complex of caves near the village of Svorlag, located in Skellige.";
-            txt_LootText.Text = "Ekhidna mutagen\nEkhidna trophy\nLock of lamia hair";
+            txt_Description.Text = "Like skilled hunters setting out wooden ducks to lure in drakes, " +
+                "sirens and lamias lure men near - using their own bodies as decoys.";
+            txt_LootText.Text = "Monster tooth\nSiren vocal cords\nWater essence";
            
             txt_SusceptibilityText.Text = "Grapeshot\nHhybrid oil\nIgni\nAard";
             
