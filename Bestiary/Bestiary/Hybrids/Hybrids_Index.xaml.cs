@@ -115,9 +115,9 @@ namespace Bestiary
 
         private void Button_9_Click(object sender, RoutedEventArgs e)
         {
-            TheDragon mahdragon = new TheDragon();
+            Succubus succubus = new Succubus();
             ChangePage();
-            LoadPage.NavigationService.Navigate(mahdragon);
+            LoadPage.NavigationService.Navigate(succubus);
         }
     }
 }

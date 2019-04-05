@@ -170,6 +170,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Hybrids\Succubus.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Hybrids\Opinicus.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -325,6 +329,9 @@
     </Compile>
     <Compile Include="Draconids\Draco_Index.xaml.cs">
       <DependentUpon>Draco_Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Succubus.xaml.cs">
+      <DependentUpon>Succubus.xaml</DependentUpon>
     </Compile>
     <Compile Include="Hybrids\Opinicus.xaml.cs">
       <DependentUpon>Opinicus.xaml</DependentUpon>
