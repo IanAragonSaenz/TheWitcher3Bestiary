@@ -15,27 +15,24 @@ using System.Windows.Shapes;
 
 namespace Bestiary
 {
-    /// <summary>
-    /// Interaction logic for Bear.xaml
-    /// </summary>
-    public partial class HoundWildHunt: Page
+
+    public partial class FireElemental : Page
     {
-        public HoundWildHunt()
+        public FireElemental()
         {
             InitializeComponent();
-            txt_Description.Text ="Born, or so some experts believe, of magic ice crystal, the Hounds of the" +
-                "Wild Hunt race alongside their spectral masters. Like ravenous, feral dogs they are capable" +
-                "only of mindleslly attacking whatever crosses their path.";
-            txt_LootText.Text = "Monster Bone\nMonster Brain\nMonster Saliva\nRotting Flesh\nSulfur";
-            txt_SusceptibilityText.Text = "Dimeritium Bomb\nElementa Oil\nIgni\nAxii";
-            txt_Ocurrence.Text = "Always with Wild Hunt";
+            txt_Description.Text ="Fire is the most destructive of the elements, thus the aggressive lethality of the creature" +
+                "that embodies its essence should come as no surprise. Fire elementals are forged" +
+                " in complicated magic rituals for one purpose: destruction. And they pursue this with murderous determination.";
+            txt_LootText.Text = "Greater Dazhbog Runestone";
+            txt_SusceptibilityText.Text = "Dimeritium Bomb\nNorthern Wind\nElementa Oil\nAard";
         }
 
         private void Button_return_Click(object sender, RoutedEventArgs e)
         {
-            Elementa_Index elementa = new Elementa_Index();
+            Elementa_Index ind = new Elementa_Index();
             Clear();
-            LoadPage.NavigationService.Navigate(elementa);
+            LoadPage.NavigationService.Navigate(ind);
         }
 
         private void Clear()
@@ -51,16 +48,15 @@ namespace Bestiary
             button_return.Visibility = Visibility.Collapsed;
             img_Mob.Visibility = Visibility.Collapsed; 
             img_back.Visibility = Visibility.Collapsed;
-            txt_Variation.Visibility = Visibility.Collapsed;
-            button_variation.Visibility = Visibility.Collapsed;
-
+           
         }
 
         private void Button_variation_Click(object sender, RoutedEventArgs e)
         {
-            ApiarianPhantom phantom = new ApiarianPhantom();
             Clear();
-            LoadPage.NavigationService.Navigate(phantom);
+            HoundWildHunt mydoggo = new HoundWildHunt();
+            LoadPage.NavigationService.Navigate(mydoggo);
+
         }
     }
 }

@@ -74,17 +74,17 @@ namespace Bestiary
 
         private void Button_6_Click(object sender, RoutedEventArgs e)
         {
-            SilverBask silvb = new SilverBask();
+            ApiarianPhantom apiarianPhantom = new ApiarianPhantom();
             ChangePage();
-            LoadPage.NavigationService.Navigate(silvb);
+            LoadPage.NavigationService.Navigate(apiarianPhantom);
 
         }
 
         private void Button_7_Click(object sender, RoutedEventArgs e)
         {
-            Slyzard sly = new Slyzard();
+            FireElemental fire = new FireElemental();
             ChangePage();
-            LoadPage.NavigationService.Navigate(sly);
+            LoadPage.NavigationService.Navigate(fire);
         }
 
         private void ChangePage()

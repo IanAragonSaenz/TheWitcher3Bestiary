@@ -138,3 +138,11 @@ C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\o
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Harpy.baml
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Ekhidna.baml
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Hybrids_Index.baml
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Melusine.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Erynia.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Melusine.baml
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Hybrids\Erynia.baml
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Elementa\ApiarianPhantom.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Elementa\ApiarianPhantom.baml
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Elementa\FireElemental.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Bestiary\obj\Debug\Elementa\FireElemental.baml
