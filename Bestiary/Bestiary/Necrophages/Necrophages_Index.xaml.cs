@@ -44,9 +44,9 @@ namespace Bestiary
 
         private void Button_2_Click(object sender, RoutedEventArgs e)
         {
-            Griffin griffin = new Griffin();
+            Devourer devourer = new Devourer();
             ChangePage();
-            LoadPage.NavigationService.Navigate(griffin);
+            LoadPage.NavigationService.Navigate(devourer);
         }
 
         private void Button_3_Click(object sender, RoutedEventArgs e)
@@ -74,9 +74,9 @@ namespace Bestiary
 
         private void Button_6_Click(object sender, RoutedEventArgs e)
         {
-            Siren siren = new Siren();
+            Scurver scurver = new Scurver();
             ChangePage();
-            LoadPage.NavigationService.Navigate(siren);
+            LoadPage.NavigationService.Navigate(scurver);
 
         }
 

@@ -170,6 +170,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Necrophages\Devourer - Copy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Necrophages\Devourer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Necrophages\Scurver.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Necrophages\Ghoul.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -353,6 +365,15 @@
     </Compile>
     <Compile Include="Draconids\Draco_Index.xaml.cs">
       <DependentUpon>Draco_Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Necrophages\Devourer - Copy.xaml.cs">
+      <DependentUpon>Devourer - Copy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Necrophages\Devourer.xaml.cs">
+      <DependentUpon>Devourer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Necrophages\Scurver.xaml.cs">
+      <DependentUpon>Scurver.xaml</DependentUpon>
     </Compile>
     <Compile Include="Necrophages\Ghoul.xaml.cs">
       <DependentUpon>Ghoul.xaml</DependentUpon>
