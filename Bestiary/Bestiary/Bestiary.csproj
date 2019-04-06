@@ -170,6 +170,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+<<<<<<< HEAD
     <Page Include="Necrophages\Rotfiend.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -199,6 +200,13 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Hybrids\Siren.xaml">
+=======
+    <Page Include="Elementa\FireElemental.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Elementa\ApiarianPhantom.xaml">
+>>>>>>> 2dfc839840771c8f6e89c14323a1db83b0b9ceb5
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -346,6 +354,7 @@
     <Compile Include="Draconids\Draco_Index.xaml.cs">
       <DependentUpon>Draco_Index.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Necrophages\Rotfiend.xaml.cs">
       <DependentUpon>Rotfiend.xaml</DependentUpon>
     </Compile>
@@ -369,6 +378,13 @@
     </Compile>
     <Compile Include="Hybrids\Siren.xaml.cs">
       <DependentUpon>Siren.xaml</DependentUpon>
+=======
+    <Compile Include="Elementa\FireElemental.xaml.cs">
+      <DependentUpon>FireElemental.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elementa\ApiarianPhantom.xaml.cs">
+      <DependentUpon>ApiarianPhantom.xaml</DependentUpon>
+>>>>>>> 2dfc839840771c8f6e89c14323a1db83b0b9ceb5
     </Compile>
     <Compile Include="Hybrids\Melusine.xaml.cs">
       <DependentUpon>Melusine.xaml</DependentUpon>
