@@ -170,6 +170,62 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Necrophages\Rotfiend.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Necrophages\Fogler.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Necrophages\Abaya.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Necrophages\Necrophages_Index.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Succubus.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Opinicus.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Griffin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Siren.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Melusine.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Erynia.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Salma.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Harpy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Ekhidna.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hybrids\Hybrids_Index.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Elementa\HoundWildHunt.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -289,6 +345,48 @@
     </Compile>
     <Compile Include="Draconids\Draco_Index.xaml.cs">
       <DependentUpon>Draco_Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Necrophages\Rotfiend.xaml.cs">
+      <DependentUpon>Rotfiend.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Necrophages\Fogler.xaml.cs">
+      <DependentUpon>Fogler.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Necrophages\Abaya.xaml.cs">
+      <DependentUpon>Abaya.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Necrophages\Necrophages_Index.xaml.cs">
+      <DependentUpon>Necrophages_Index.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Succubus.xaml.cs">
+      <DependentUpon>Succubus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Opinicus.xaml.cs">
+      <DependentUpon>Opinicus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Griffin.xaml.cs">
+      <DependentUpon>Griffin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Siren.xaml.cs">
+      <DependentUpon>Siren.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Melusine.xaml.cs">
+      <DependentUpon>Melusine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Erynia.xaml.cs">
+      <DependentUpon>Erynia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Salma.xaml.cs">
+      <DependentUpon>Salma.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Harpy.xaml.cs">
+      <DependentUpon>Harpy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Ekhidna.xaml.cs">
+      <DependentUpon>Ekhidna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hybrids\Hybrids_Index.xaml.cs">
+      <DependentUpon>Hybrids_Index.xaml</DependentUpon>
     </Compile>
     <Compile Include="Elementa\HoundWildHunt.xaml.cs">
       <DependentUpon>HoundWildHunt.xaml</DependentUpon>
